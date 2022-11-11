@@ -103,14 +103,6 @@ font-family: 'Atkinson Hyperlegible';
   width: 100%;
 }
 
-.a {
-
-}
-
-.c {
-
-}
-
 .time {
   padding-left: 10px;
   padding-top: 10px;
@@ -131,7 +123,7 @@ font-family: 'Atkinson Hyperlegible';
 }
 
 .description {
-  font-family: Atkinson Hyperlegible;
+  font-family: 'Atkinson Hyperlegible';
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
