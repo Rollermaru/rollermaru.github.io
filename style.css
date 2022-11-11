@@ -9,7 +9,7 @@ body {
 }
 
 header, footer {
-  background-color: #918ef4;
+  background-color: #141B41;
   text-align: left;
   color: #fff;
   display: flex;
@@ -48,7 +48,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #306BAC;
   padding: 10px 0px 10px 10px;
 }
 
@@ -81,7 +81,7 @@ font-family: 'IBM Plex Sans Condensed';
   border-radius: 28px;
   border: 1px solid #141b41;
   cursor: pointer;
-  color: #98b9f2;
+  color: #98B9F2;
   font-size: 20px;
   padding: 16px 31px;
   text-decoration: none;
@@ -89,7 +89,7 @@ font-family: 'IBM Plex Sans Condensed';
 }
 
 .myButton:hover {
-    background-color:#6f9ceb;
+    background-color:#6F9CEB;
 }
 
 .myButton:active {
@@ -165,13 +165,13 @@ footer {
 }
 
 .skip-to-content-link {
-  background: #6f9ceb;
+  background: #6F9CEB;
   height: 30px;
   left: 50%;
   padding: 9px;
   position: absolute;
   transform: translateY(-105%);
-
+  color:#98b9f2;
   transition: transform 0.3s;
 }
 
