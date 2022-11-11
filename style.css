@@ -9,7 +9,7 @@ body {
 }
 
 header, footer {
-  background-color: #26216b;
+  background-color: #918ef4;
   text-align: left;
   color: #fff;
   display: flex;
@@ -66,7 +66,7 @@ img {
 }
 
 .bio {
-color: #ffffff;
+color: #98b9f2;
 font-size: 24px;
 font-family: 'IBM Plex Sans Condensed';
 }
@@ -79,9 +79,9 @@ font-family: 'IBM Plex Sans Condensed';
 
 .myButton {
   border-radius: 28px;
-  border: 1px solid #ffffff;
+  border: 1px solid #141b41;
   cursor: pointer;
-  color: #ffffff;
+  color: #98b9f2;
   font-size: 20px;
   padding: 16px 31px;
   text-decoration: none;
@@ -89,7 +89,7 @@ font-family: 'IBM Plex Sans Condensed';
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:#6f9ceb;
 }
 
 .myButton:active {
@@ -117,7 +117,7 @@ font-family: 'IBM Plex Sans Condensed';
   font-weight: 500;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #4a4a4a;
+  color: #141b41;
   position: relative;
   bottom: 5px;
 }
@@ -129,9 +129,9 @@ font-family: 'IBM Plex Sans Condensed';
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #4a4a4a;
+  color: #141b41;
   padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
+  border-top: 1px solid #141b41;
 }
 
 .logo {
@@ -165,7 +165,7 @@ footer {
 }
 
 .skip-to-content-link {
-  background: #ffffff;
+  background: #6f9ceb;
   height: 30px;
   left: 50%;
   padding: 9px;
