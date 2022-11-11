@@ -129,7 +129,7 @@ font-family: 'IBM Plex Sans Condensed';
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #141b41;
+  color: #918EF4;
   padding: 10px 0px 10px 10px;
   border-top: 1px solid #141b41;
 }
@@ -171,7 +171,7 @@ footer {
   padding: 9px;
   position: absolute;
   transform: translateY(-105%);
-  color:#98b9f2;
+  color:#306BAC;
   transition: transform 0.3s;
 }
 
