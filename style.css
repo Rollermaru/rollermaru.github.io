@@ -35,7 +35,7 @@ main {
 }
 
 h1 {
-  font-family: Poppins;
+  font-family: 'IBM Plex Sans';
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  font-family: Poppins;
+  font-family: 'IBM Plex Sans';
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
@@ -68,7 +68,7 @@ img {
 .bio {
 color: #ffffff;
 font-size: 24px;
-font-family: 'Atkinson Hyperlegible';
+font-family: 'IBM Plex Sans Condensed';
 }
 
 .buttonBox {
@@ -112,7 +112,7 @@ font-family: 'Atkinson Hyperlegible';
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
+  font-family: 'IBM Plex Sans';
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -123,7 +123,7 @@ font-family: 'Atkinson Hyperlegible';
 }
 
 .description {
-  font-family: 'Atkinson Hyperlegible';
+  font-family: 'IBM Plex Sans Condensed';
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
