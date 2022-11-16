@@ -89,7 +89,7 @@ font-family: 'IBM Plex Sans Condensed';
 }
 
 .myButton:hover {
-    background-color:#6F9CEB;
+    background-color:rgba(0,0,0,0.25);
 }
 
 .myButton:active {
@@ -101,6 +101,11 @@ font-family: 'IBM Plex Sans Condensed';
 .entry {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
+}
+
+.entry:hover, .entry:focus, .entry:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
 }
 
 .time {
@@ -177,4 +182,12 @@ footer {
 
 .skip-to-content-link:focus {
   transform: translateY(0%);
+}
+
+.link {
+
+}
+
+.link:hover {
+
 }
