@@ -79,7 +79,7 @@ font-family: 'IBM Plex Sans Condensed';
 
 .myButton {
   border-radius: 28px;
-  border: 1px solid #141b41;
+  border: 1px solid #FFFFFF;
   cursor: pointer;
   color: #98B9F2;
   font-size: 20px;
@@ -129,7 +129,7 @@ font-family: 'IBM Plex Sans Condensed';
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #918EF4;
+  color: #141b41;
   padding: 10px 0px 10px 10px;
   border-top: 1px solid #141b41;
 }
