@@ -106,8 +106,8 @@ font-family: 'IBM Plex Sans Condensed';
 }
 
 .entry:hover, .entry:focus, .entry:active {
-  -webkit-transform: scale(0.8);
-  transform: scale(0.8);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .time {
