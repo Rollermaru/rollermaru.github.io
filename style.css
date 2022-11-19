@@ -57,7 +57,7 @@ img {
   height: 50vh;
   object-fit:cover;
   border-radius: 20px 20px 0px 0px;
-  border:2px;
+  border:1px;
 }
 
 .wrapper {
