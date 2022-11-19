@@ -57,7 +57,7 @@ img {
   height: 50vh;
   object-fit:cover;
   border-radius: 20px 20px 0px 0px;
-  /* border:1px; */
+  border:1px;
 }
 
 .wrapper {
@@ -190,8 +190,8 @@ footer {
   }
   img {
     height: 40vh;
-    border-style: solid;
-    border-width: 1px;
+    /* border-style: solid; */
+    /* border-width: 1px; */
   }
 }
 
