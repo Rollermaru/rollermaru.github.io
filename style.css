@@ -10,21 +10,19 @@ body {
 
 header,
 footer {
-  background-color: #2f80ed;
+  background-color: #2F80ED;
   text-align: left;
   color: #fff;
   display: flex;
-  /* min-width: 500px; */
 }
 
 header {
   min-height: 100vh;
+
+  /* color choice might be hard to see... */
   background: #56CCF2;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #2f80ed, #56CCF2);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #2f80ed, #56CCF2);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* footer css */
@@ -215,7 +213,7 @@ h2 {
 
 /* skip-to-content css */
 .skip-to-content-link {
-  background: #918EF4;
+  background: #F4FAFF;
   height: 30px;
   left: 50%;
   padding: 9px;
