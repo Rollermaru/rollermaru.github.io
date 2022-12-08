@@ -94,24 +94,6 @@ main {
   background-color: #F4FAFF;
 }
 
-/* mobile phone usage */
-@media all and (max-width:700px) {
-  main {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    margin: 44px 20px;
-  }
-
-  .description {
-    font-size: 20px;
-    padding-bottom: 10px;
-  }
-
-  img {
-    height: 25vh;
-  }
-}
-
 /* text css */
 h1 {
   font-family: 'IBM Plex Sans';
@@ -241,4 +223,22 @@ img {
   margin: auto;
   padding: 50px;
   display: block;
+}
+
+/* mobile phone usage */
+@media all and (max-width:700px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    margin: 44px 20px;
+  }
+
+  .description {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  img {
+    height: 25vh;
+  }
 }
