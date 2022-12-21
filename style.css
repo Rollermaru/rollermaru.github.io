@@ -8,6 +8,7 @@ body {
   margin: 0;
 }
 
+
 header,
 footer {
   background-color: #2F80ED;
@@ -17,12 +18,59 @@ footer {
 }
 
 header {
-  min-height: 100vh;
-
   /* color choice might be hard to see... */
   background: #56CCF2;
   background: -webkit-linear-gradient(to bottom, #2f80ed, #56CCF2);
   background: linear-gradient(to bottom, #2f80ed, #56CCF2);
+}
+
+.hero {
+  min-height: 100vh;
+}
+
+.menu {
+  max-height: 2vh;
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index:100000;
+  background: #141B41;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display:inline-block;
+  padding: 0px 20px;
+  border: 2px;
+  border-color: #F4FAFF;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease;
+}
+
+.nav_links li a:hover {
+  color: #56CCF2
+}
+
+.nav_links_text {
+  color:#F4FAFF;
+  text-decoration: none;
+}
+
+li {
+  font-family: 'IBM Plex Sans';
+  font-size: 16px;
+  font-weight: 500;
+  color: #F4FAFF;
+  text-decoration: none;
 }
 
 /* footer css */
@@ -43,6 +91,7 @@ footer div {
 .icons {
   list-style-type: none;
   display: inline-flex;
+  justify-content: flex-end;
 }
 
 .icons a {
@@ -68,8 +117,8 @@ footer div {
 
 .entry:hover,
 .entry:focus {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 /* entry container css */
