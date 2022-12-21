@@ -14,7 +14,6 @@ footer {
   background-color: #2F80ED;
   text-align: left;
   color: #fff;
-  display: flex;
 }
 
 header {
@@ -22,6 +21,7 @@ header {
   background: #56CCF2;
   background: -webkit-linear-gradient(to bottom, #2f80ed, #56CCF2);
   background: linear-gradient(to bottom, #2f80ed, #56CCF2);
+  display: flex;
 }
 
 .hero {
@@ -79,6 +79,7 @@ footer div {
   font-family: 'IBM Plex Sans';
   font-size: 14px;
   display: flex;
+  justify-content: space-between;
   align-content: center;
   padding: 10px 20px;
   color: rgba(255, 255, 255, 0.9);
@@ -92,6 +93,7 @@ footer div {
   list-style-type: none;
   display: inline-flex;
   justify-content: flex-end;
+  align-content:flex-end;
 }
 
 .icons a {
